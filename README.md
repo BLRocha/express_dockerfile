@@ -64,7 +64,7 @@ EXPOSE 8081/udp
 USER Adm
 ```
 - VOLUME
-    - VOLUME ermite um ponto de montagem no container.
+    - VOLUME permite um ponto de montagem no container.
 ```yml
 VOLUME /tmp
 ```
