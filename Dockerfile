@@ -9,9 +9,11 @@ EXPOSE 8008
 
 RUN apk update && \
     apk upgrade && \
-    apk add nodejs npm
+    apk add nodejs npm && \
+    npm install -g npm@7.6.2 && \
+    cd /home && npm i
 
 LABEL MANTEINER="Leandro Rocha"
 LABEL V="0.0.1"
 
-ENTRYPOINT ["node", "/home/server.js"]
+ENTRYPOINT ["/bin/sh", "-c", "node /home/server.js"]
