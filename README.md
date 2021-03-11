@@ -1,5 +1,15 @@
 <h1 align="center">Dockerfile</h1>
 
+#### Construindo a imagem do Dockerfile expressjs
+
+```sh
+docker build -t expressjs:0.1 .
+
+## Test
+docker run -it --rm --name texpress -p 8080:8008 -d expressjs:0.1
+```
+
+
 ## Tags Disponíveis
 
 - FROM 
