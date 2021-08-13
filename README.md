@@ -1,6 +1,9 @@
 <h1 align="center">Dockerfile</h1>
 
-#### Construindo a imagem do Dockerfile expressjs
+
+### Exercitando e anotando `Tags` de um Dockerfile.
+
+#### Construindo uma imagem com Dockerfile, `expressjs`.
 
 ```sh
 docker build -t expressjs:0.1 .
