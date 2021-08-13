@@ -91,6 +91,6 @@ LABEL MTAGSQQ="FULL INFI AT CONTAINER"
 ### Ao utilizar ENTRYPOINT e CMD cmd execultara apenas paramentros referente ao comando passado no entrypoint
 EX:
 ```yml
-ENTRYPOINT ["gpp", "main.c", "-o", "main"]
+ENTRYPOINT ["cpp", "main.c", "-o", "main"]
 CMD ["-std=c++17"]
 ```
